@@ -1,0 +1,36 @@
+body{
+  overflow: hidden;
+  user-select: none;
+  margin: 0px;
+  background-color: #36a6b9;
+  font-family: "Segoe UI", Roboto, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  color: #eee;
+  font-size: max(10vw, 10vh);
+  font-weight: lighter;
+  text-align: center;
+}
+
+input{
+  display: none;
+}
+
+svg{
+  fill: #eee;
+  width: max(10vw, 10vh);
+  cursor: pointer;
+}
+
+#canvas{
+  display: none;
+}
+
+#center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.hidden{
+  display: none;
+}

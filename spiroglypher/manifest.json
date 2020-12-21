@@ -1,0 +1,15 @@
+{
+  "name": "Spiroglypher",
+  "short_name": "Spiro",
+  "start_url": "index.html",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "212x212",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#287c8a",
+  "background_color": "#36a6b9",
+  "display": "standalone"
+}

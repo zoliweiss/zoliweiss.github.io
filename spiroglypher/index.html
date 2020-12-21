@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Spiroglypher</title>
+  <link href="spiro.css" rel="stylesheet" type="text/css" media="screen">
+  <link rel="shortcut icon" sizes="192x192" href="favicon.png">
+  <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#287c8a">
+</head>
+<body>
+  <div id="center">
+    <div id="image_upload">
+      <label for="uploadimage">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 24 24"><path d="M14,2L20,8V20A2,2 0 0,1 18,22H6A2,2 0 0,1 4,20V4A2,2 0 0,1 6,2H14M18,20V9H13V4H6V20H18M12,12L16,16H13.5V19H10.5V16H8L12,12Z"/></svg>
+      </label>
+      <input type="file" name="img" id="uploadimage" accept="image/*"/>
+    </div>
+    <div id="progress"></div>
+  </div>
+  <canvas id="canvas"></canvas>
+  <script type="text/javascript" src="spiro_min.js"></script>
+</body>
+</html>
